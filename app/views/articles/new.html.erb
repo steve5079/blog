@@ -14,4 +14,9 @@
   <p>
     <%= f.submit %>
   </p>
+  <%= form_for :article, url: articles_path do |f| %>
+  <%= link_to 'Back', articles_path %>
 <% end %>
+<% end %>
+
+
